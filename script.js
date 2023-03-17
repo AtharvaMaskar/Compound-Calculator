@@ -21,6 +21,10 @@ const compounding = (principle, noOfDays, tradesPerDay) => {
 }
 
 submitButton.addEventListener('click', () => {
+alert("Hello World");
+})
+
+submitButton.addEventListener('click', () => {
     const principle = getPrinciple();
     const tradesPerDay = getTradesPerDay();
     const compoundingCycle = compounding(principle, 25, tradesPerDay);
